@@ -5,16 +5,11 @@
     display: inline-block;
     vertical-align: top;
 }
-header {background-color: #f4f4fa;
+header {background-color: #ffffff;
     padding: 25px;
     vertical-align: top;
     padding: 25px;
-    clear: both;
-    }
-
-    .navigation ul li {display: inline-block;
-        color: rgb(0, 0, 0); 
-
+    
     }
 
 .logo{
@@ -39,11 +34,11 @@ nav{
 .heroImg {
     width: 40vw;
     float: right;
-    height: 600px;
+    height: 700px;
     padding: 25px;
 
 }
-img{width: 100%;}
+img{width: 50%;}
 
 .content .description {
     
