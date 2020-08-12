@@ -1,10 +1,21 @@
 
 /*navigation*/
 
-.inline-block{
+.inline-block ul li{
     display: inline-block;
     vertical-align: top;
 }
+header {background-color: #f4f4fa;
+    padding: 25px;
+    vertical-align: top;
+    padding: 25px;
+    clear: both;
+    }
+
+    .navigation ul li {display: inline-block;
+        color: rgb(0, 0, 0); 
+
+    }
 
 .logo{
     width: 23%;
@@ -26,22 +37,28 @@ nav{
 /*hero image*/
 
 .heroImg {
+    width: 40vw;
+    float: right;
     height: 600px;
     padding: 25px;
 
 }
+img{width: 100%;}
 
-.content {
-    width: 500px;
-    margin: 0 auto;
+.content .description {
+    
+    width: 55vw;
+    float: left;
 }
 /*footer*/
 
-footer{background-color: #373738;
+footer {background-color: #373738;
 padding: 25px;
-}
-
-.footer-menu {display: inline-block;
 vertical-align: top;
 padding: 25px;
+clear: both;
 }
+.footer ul li {display: inline-block;
+    color: white;
+}
+
